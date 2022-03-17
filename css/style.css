@@ -46,15 +46,13 @@ nav ul li a {
     display: block;
     text-align: center;
     padding: 5px 0;
-    background-color: #684b2b;
-    /* background: rgb(65, 40, 10);
-    background: linear-gradient(180deg, rgba(65, 40, 10, 1) 25%, rgba(122, 87, 21, 1) 93%); */
+    background: rgb(65, 40, 10);
+    background: linear-gradient(180deg, rgba(65, 40, 10, 1) 25%, rgba(122, 87, 21, 1) 93%);
 }
 
 nav ul li a:hover {
-    background-color: #a68562;
-    /* background: rgb(65, 40, 10);
-    background: linear-gradient(0deg, rgba(65, 40, 10, 1) 25%, rgba(122, 87, 21, 1) 93%); */
+    background: rgb(65, 40, 10);
+    background: linear-gradient(0deg, rgba(65, 40, 10, 1) 25%, rgba(122, 87, 21, 1) 93%);
 }
 
 h2 {
@@ -131,9 +129,9 @@ footer {
     border-radius: 5%;
     width: 70%;
     margin: auto;
-    /* transform: scale(1.1);
+    transform: scale(1.1);
     cursor: pointer;
-    transition: transform 2s; */
+    transition: transform 2s;
 }
 
 .house p {
@@ -205,12 +203,11 @@ footer {
     border-radius: 5%;
 }
 
-
-/* .galeria .imagenes .foto img:hover {
+.galeria .imagenes .foto img:hover {
     transform: scale(1.1);
     cursor: pointer;
     transition: transform 2s;
-} */
+}
 
 
 /* fin galeria */
