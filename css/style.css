@@ -115,9 +115,9 @@ h2 {
 
 /* inicio galeria */
 
-.galeria h2 {
+main h2 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .imagenes {
@@ -158,8 +158,9 @@ h2 {
     width: 100%;
 }
 
-main h2 {
+main #contacto {
     text-align: center;
+    margin-top: 20px;
 }
 
 .formulario input,
@@ -228,6 +229,9 @@ main h2 {
     .foto img {
         margin: 10px 0;
     }
+    #ubicacion {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -241,6 +245,9 @@ main h2 {
         margin-top: 30px;
     }
     main h2 {
+        margin-top: 20px;
+    }
+    #ubicacion {
         margin-top: 20px;
     }
     main .galeria .imagenes {
