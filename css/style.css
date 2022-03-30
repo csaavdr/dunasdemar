@@ -1,291 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 33px;
-    margin: 0;
-    background-color: #cce0f7;
-}
+  background-color: #cce0f7; }
+
+h2,
+h3,
+p {
+  color: #012a58;
+  font-style: italic; }
 
 #botonera {
-    background: rgba(255, 211, 50, 0.411);
-    background: linear-gradient(0deg, rgba(255, 211, 50, 0.521) 0%, rgba(172, 172, 172, 0.445) 100%);
-}
+  background: rgba(255, 211, 50, 0.61);
+  background: linear-gradient(0deg, rgba(255, 211, 50, 0.733) 0%, rgba(172, 172, 172, 0.651) 100%); }
 
 #botonera img[src="img/logo.svg"] {
-    width: 100px;
-}
+  width: 100px; }
 
-h2 {
-    color: #012a58;
-    font-size: 2em;
-    font-style: italic;
-}
-
-
-/* inicio home */
+ul li a {
+  font-size: 1.5em; }
 
 .casa {
-    border-radius: 5px;
-    text-align: center;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-.casa img {
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px;
+  box-sizing: border-box; }
+  .casa img {
     max-width: 100%;
     border-radius: 5%;
-    box-shadow: 0 0 5px rgb(87, 86, 86);
-    cursor: pointer;
-}
-
-.casa h3 {
-    color: #012a58;
-    font-size: 1.5em;
-    font-style: italic;
-    padding-top: 10px;
-}
-
-
-/* fin home */
-
-
-/* inicio alojamientos */
+    box-shadow: 0 0 5px #575656;
+    cursor: pointer; }
+  .casa h3 {
+    padding-top: 10px; }
 
 .alojamientos {
-    margin-top: 50px;
-    padding: 0 10px 10px;
-}
+  margin-top: 50px;
+  padding: 0 10px; }
 
-.cabin .house {
-    display: flex;
-    flex-direction: column;
-}
-
-.house img {
+.house {
+  display: flex;
+  flex-direction: column; }
+  .house img {
     border-radius: 5%;
     width: 50%;
-    margin: auto;
-}
-
-.house img:hover {
-    border-radius: 5%;
-    width: 50%;
-    margin: auto;
-    transform: scale(1.1);
-    cursor: pointer;
-    transition: transform 2s;
-}
-
-.house p {
+    margin: auto; }
+    .house img:hover {
+      border-radius: 5%;
+      width: 50%;
+      margin: auto;
+      transform: scale(1.1);
+      cursor: pointer;
+      transition: transform 2s; }
+  .house p {
     padding: 0 10px 10px;
     font-size: 20px;
     text-align: start;
-    margin-top: 20px;
-}
+    margin-top: 20px; }
 
 .cabin h2 {
-    margin: 20px 0;
-    text-align: center;
-}
+  margin: 20px 0;
+  text-align: center; }
 
 .temporada h2 {
-    text-align: center;
-    margin: 20px 0;
-}
+  text-align: center;
+  margin: 20px 0; }
 
 .temporada table {
-    width: auto;
-    margin: auto;
-    text-align: center;
-}
-
-
-/* fin alojamientos */
-
-
-/* inicio servicios */
-
-.servicios h2 {
-    text-align: center;
-    margin-top: 20px;
-}
-
-
-/* fin servicios */
-
-
-/* inicio galeria */
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 15px; }
 
 main h2 {
-    text-align: center;
-    margin-top: 20px;
-}
+  text-align: center;
+  margin-top: 20px; }
+
+ul li {
+  color: #012a58; }
 
 .imagenes {
-    display: grid;
-    grid-template-columns: 33vw 33vw 33vw;
-    grid-template-rows: auto;
-    grid-template-areas: "foto foto foto";
-    grid-area: foto;
-}
+  display: grid;
+  grid-template-columns: 33vw 33vw 33vw;
+  grid-template-rows: auto;
+  grid-template-areas: "foto foto foto";
+  grid-area: foto; }
 
 .galeria .imagenes .foto {
-    box-sizing: border-box;
-    padding: 5px;
-    width: 90%;
-    box-sizing: border-box;
-    margin: 50px 10px 20px 20px;
-}
-
-.galeria .imagenes .foto img {
+  box-sizing: border-box;
+  padding: 5px;
+  width: 90%;
+  box-sizing: border-box;
+  margin: 50px 10px 20px 20px; }
+  .galeria .imagenes .foto img {
     width: 100%;
-    /*  */
-    border-radius: 5%;
-}
-
-.galeria .imagenes .foto img:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    transition: transform 2s;
-}
-
-
-/* fin galeria */
-
-
-/* inicio contacto */
-
-.contactoimg img {
-    width: 100%;
-}
+    border-radius: 5%; }
+    .galeria .imagenes .foto img:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+      transition: transform 2s; }
 
 main #contacto {
-    text-align: center;
-    margin-top: 20px;
-}
+  margin-top: 20px; }
 
 .formulario input,
 .formulario textarea {
-    background-color: rgb(204, 204, 204);
-    border-radius: 5px;
-    border: 1px solid rgb(248, 203, 80);
-    width: 100%;
-}
+  background-color: #cccccc;
+  border-radius: 5px;
+  border: 1px solid #f8cb50;
+  width: 100%; }
 
-.formulario #promocion {
-    width: min-content;
-}
+#promocion {
+  width: min-content; }
 
 .formulario textarea {
-    resize: none;
-    height: 100%;
-    width: 100%;
-}
+  resize: none;
+  height: 200px;
+  width: 100%; }
 
 .formulario input[type="submit"]:hover {
-    background-color: #a68562;
-    box-shadow: 0 0 5px;
-}
+  background-color: #a68562;
+  box-shadow: 0 0 5px; }
 
 .formulario input[type="reset"]:hover {
-    background-color: #a68562;
-    box-shadow: 0 0 5px;
-}
+  background-color: #a68562;
+  box-shadow: 0 0 5px; }
 
 .map-responsive {
-    overflow: hidden;
-    padding-bottom: 100%;
-    position: relative;
-    height: 0;
-}
-
-.map-responsive iframe {
+  overflow: hidden;
+  padding-bottom: 100%;
+  position: relative;
+  height: 0; }
+  .map-responsive iframe {
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    position: absolute;
-}
+    position: absolute; }
 
 .consultas .formulario p {
-    text-align: left;
-}
+  text-align: left; }
 
 .consultas,
 .ubicacion h3 {
-    text-align: center;
-    color: #012a58;
-}
+  text-align: center; }
 
+footer p {
+  color: #c9a523;
+  text-align: center;
+  font-family: "Roboto", sans-serif; }
 
-/* fin contacto */
+@media screen and (max-width: 480px) {
+  main h2 {
+    margin-top: 10px; }
+  .foto img {
+    margin: 10px 0; }
+  #ubicacion {
+    margin-top: 20px; } }
 
-
-/* media queries */
-
-@media screen and (max-width:480px) {
-    main h2 {
-        margin-top: 10px;
-    }
-    .foto img {
-        margin: 10px 0;
-    }
-    #ubicacion {
-        margin-top: 20px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .alojamientos .cabin .house img {
-        width: 100%;
-    }
-    .cabin h2 {
-        margin-bottom: 30px;
-    }
-    .house p {
-        margin-top: 30px;
-    }
-    main h2 {
-        margin-top: 20px;
-    }
-    #ubicacion {
-        margin-top: 20px;
-    }
-    main .galeria .imagenes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+@media screen and (max-width: 768px) {
+  .alojamientos .cabin .house img {
+    width: 100%; }
+  .cabin h2 {
+    margin-bottom: 30px; }
+  .house p {
+    margin-top: 30px; }
+  main h2 {
+    margin-top: 20px; }
+  #ubicacion {
+    margin-top: 20px; }
+  main .galeria .imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
     main .galeria .imagenes .foto {
-        margin: 20px 10px;
-    }
-    .formulario input,
-    textarea,
-    p {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .formulario #promocion {
-        width: min-content;
-    }
-    .contacto,
-    .ubicacion {
-        float: none;
-    }
-    .consultas,
-    .ubicacion {
-        width: 100%;
-    }
-    .contacto .consultas {
-        width: 100%;
-    }
-    .contacto .ubicacion {
-        width: 100%;
-    }
-}
+      margin: 20px 10px; }
+  .formulario input,
+  textarea,
+  p {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0; }
+  .formulario #promocion {
+    width: min-content; }
+  .contacto,
+  .ubicacion {
+    float: none; }
+  .consultas,
+  .ubicacion {
+    width: 100%; }
+  .contacto .consultas {
+    width: 100%; }
+  .contacto .ubicacion {
+    width: 100%; } }
 
-@media screen and (max-width:1024px) {
-    main h2 {
-        margin-top: 40px;
-    }
-}
+@media screen and (max-width: 1024px) {
+  main h2 {
+    margin-top: 40px; } }

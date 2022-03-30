@@ -1,0 +1,67 @@
+@media screen and (max-width:480px) {
+    main h2 {
+        margin-top: 10px;
+    }
+    .foto img {
+        margin: 10px 0;
+    }
+    #ubicacion {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .alojamientos .cabin .house img {
+        width: 100%;
+    }
+    .cabin h2 {
+        margin-bottom: 30px;
+    }
+    .house p {
+        margin-top: 30px;
+    }
+    main h2 {
+        margin-top: 20px;
+    }
+    #ubicacion {
+        margin-top: 20px;
+    }
+    main .galeria .imagenes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .foto {
+            margin: 20px 10px;
+        }
+    }
+    .formulario input,
+    textarea,
+    p {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .formulario #promocion {
+        width: min-content;
+    }
+    .contacto,
+    .ubicacion {
+        float: none;
+    }
+    .consultas,
+    .ubicacion {
+        width: 100%;
+    }
+    .contacto .consultas {
+        width: 100%;
+    }
+    .contacto .ubicacion {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    main h2 {
+        margin-top: 40px;
+    }
+}

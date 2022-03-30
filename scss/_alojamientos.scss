@@ -1,0 +1,45 @@
+.alojamientos {
+    margin-top: 50px;
+    padding: 0 10px;
+}
+
+.house {
+    display: flex;
+    flex-direction: column;
+    img {
+        border-radius: 5%;
+        width: 50%;
+        margin: auto;
+        &:hover {
+            border-radius: 5%;
+            width: 50%;
+            margin: auto;
+            transform: scale(1.1);
+            cursor: pointer;
+            transition: transform 2s;
+        }
+    }
+    p {
+        padding: 0 10px 10px;
+        font-size: 20px;
+        text-align: start;
+        margin-top: 20px;
+    }
+}
+
+.cabin h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.temporada h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.temporada table {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}

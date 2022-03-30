@@ -1,0 +1,15 @@
+//definimos variables
+//colores
+$mainColor:#cce0f7;
+$secondColor:#012a58;
+$keyColor: #000000;
+body {
+    background-color: $mainColor;
+}
+
+h2,
+h3,
+p {
+    color: $secondColor;
+    font-style: italic;
+}

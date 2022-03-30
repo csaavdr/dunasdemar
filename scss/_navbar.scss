@@ -1,0 +1,12 @@
+#botonera {
+    background: rgba(255, 211, 50, 0.61);
+    background: linear-gradient(0deg, rgba(255, 211, 50, 0.733) 0%, rgba(172, 172, 172, 0.651) 100%);
+}
+
+#botonera img[src="img/logo.svg"] {
+    width: 100px;
+}
+
+ul li a {
+    font-size: $textSm;
+}
