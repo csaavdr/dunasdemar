@@ -1,15 +1,21 @@
 //definimos variables
 //colores
-$mainColor:#cce0f7;
-$secondColor:#012a58;
-$keyColor: #000000;
-body {
-    background-color: $mainColor;
+//map
+$paleta:( 'body': #cce0f7, 'font': #012a58, 'bgfooter':#000000, 'footer2':rgb(201, 165, 35), 'navbar':rgba(255, 211, 50, 0.61), 'navbar2': rgba(255, 211, 50, 0.733), 'navbar3': rgba(172, 172, 172, 0.651), 'shadow':rgb(87, 86, 86), 'form':rgb(204, 204, 204), 'form2':rgb(248, 203, 80), 'form3':#a68562, );
+//mixin
+@mixin titulos($font-style, $font-size, $text-align, $color) {
+    font-style: $font-style;
+    font-size: $font-size;
+    text-align: $text-align;
+    color: $color;
 }
 
-h2,
-h3,
-p {
-    color: $secondColor;
-    font-style: italic;
+@mixin text($font-size, $font-style, $color) {
+    font-size: $font-size;
+    font-style: $font-style;
+    color: $color;
+}
+
+body {
+    background-color: map-get($map: $paleta, $key: 'body');
 }

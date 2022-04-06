@@ -6,11 +6,21 @@
 body {
   background-color: #cce0f7; }
 
-h2,
-h3,
+h1 {
+  font-style: italic;
+  font-size: 2.5em;
+  text-align: center;
+  color: #012a58; }
+
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #012a58; }
+
 p {
-  color: #012a58;
-  font-style: italic; }
+  font-size: 1em;
+  font-style: italic;
+  color: #012a58; }
 
 #botonera {
   background: rgba(255, 211, 50, 0.61);
@@ -20,19 +30,27 @@ p {
   width: 100px; }
 
 ul li a {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  font-style: italic; }
+
+footer {
+  background-color: #000000; }
+  footer p {
+    color: #c9a523;
+    text-align: center;
+    font-family: "Roboto", sans-serif; }
 
 .casa {
   border-radius: 5px;
   text-align: center;
   padding: 8px;
   box-sizing: border-box; }
-  .casa img {
+  .casa img, .casa .house img:hover, .house .casa img:hover {
     max-width: 100%;
     border-radius: 5%;
     box-shadow: 0 0 5px #575656;
     cursor: pointer; }
-  .casa h3 {
+  .casa h2 {
     padding-top: 10px; }
 
 .alojamientos {
@@ -42,28 +60,24 @@ ul li a {
 .house {
   display: flex;
   flex-direction: column; }
-  .house img {
+  .house img, .house img:hover {
     border-radius: 5%;
     width: 50%;
     margin: auto; }
     .house img:hover {
-      border-radius: 5%;
-      width: 50%;
-      margin: auto;
       transform: scale(1.1);
       cursor: pointer;
       transition: transform 2s; }
   .house p {
     padding: 0 10px 10px;
-    font-size: 20px;
     text-align: start;
     margin-top: 20px; }
 
-.cabin h2 {
-  margin: 20px 0;
+.cabin h1 {
+  margin: 30px 0;
   text-align: center; }
 
-.temporada h2 {
+.temporada h1 {
   text-align: center;
   margin: 20px 0; }
 
@@ -73,12 +87,12 @@ ul li a {
   text-align: center;
   margin-bottom: 15px; }
 
-main h2 {
-  text-align: center;
-  margin-top: 20px; }
+main ul li {
+  color: #012a58;
+  font-style: italic; }
 
-ul li {
-  color: #012a58; }
+main h1 {
+  margin-top: 20px; }
 
 .imagenes {
   display: grid;
@@ -101,8 +115,14 @@ ul li {
       cursor: pointer;
       transition: transform 2s; }
 
-main #contacto {
-  margin-top: 20px; }
+#contacto {
+  margin: 20px 0; }
+
+#consultas {
+  text-align: center; }
+
+#ubicacion {
+  text-align: center; }
 
 .formulario input,
 .formulario textarea {
@@ -142,19 +162,10 @@ main #contacto {
 .consultas .formulario p {
   text-align: left; }
 
-.consultas,
-.ubicacion h3 {
-  text-align: center; }
-
-footer p {
-  color: #c9a523;
-  text-align: center;
-  font-family: "Roboto", sans-serif; }
-
 @media screen and (max-width: 480px) {
   main h2 {
     margin-top: 10px; }
-  .foto img {
+  .foto img, .foto .house img:hover, .house .foto img:hover {
     margin: 10px 0; }
   #ubicacion {
     margin-top: 20px; } }

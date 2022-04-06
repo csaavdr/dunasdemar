@@ -1,6 +1,6 @@
 #botonera {
-    background: rgba(255, 211, 50, 0.61);
-    background: linear-gradient(0deg, rgba(255, 211, 50, 0.733) 0%, rgba(172, 172, 172, 0.651) 100%);
+    background: map-get($map: $paleta, $key: 'navbar');
+    background: linear-gradient(0deg, map-get($map: $paleta, $key: 'navbar2') 0%, map-get($map: $paleta, $key: 'navbar3') 100%);
 }
 
 #botonera img[src="img/logo.svg"] {
@@ -9,4 +9,15 @@
 
 ul li a {
     font-size: $textSm;
+    font-style: italic;
+}
+
+// footer
+footer {
+    background-color: map-get($map: $paleta, $key: 'bgfooter');
+    p {
+        color: map-get($map: $paleta, $key: 'footer2');
+        text-align: center;
+        font-family: $fontMain;
+    }
 }

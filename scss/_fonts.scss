@@ -2,6 +2,26 @@
 $fontMain:'Roboto',
 sans-serif;
 // variables para los textos
-$textLg:3em;
+$textLg:2.5em;
 $textMd:2em;
 $textSm:1.5em;
+$textXs:1em;
+//h1 - h2 - p
+h1 {
+    @include titulos(italic,
+    $textLg,
+    center,
+    map-get($map: $paleta, $key: 'font'))
+}
+
+h2 {
+    @include text($textSm,
+    italic,
+    map-get($map: $paleta, $key: 'font'))
+}
+
+p {
+    @include text($textXs,
+    italic,
+    map-get($map: $paleta, $key: 'font'))
+}
