@@ -14,9 +14,9 @@ ul li a {
 
 // footer
 footer {
-    background-color: map-get($map: $paleta, $key: 'bgfooter');
+    background-color: map-get($map: $paleta, $key: 'font');
     p {
-        color: map-get($map: $paleta, $key: 'footer2');
+        color: map-get($map: $paleta, $key: 'navbar2');
         text-align: center;
         font-family: $fontMain;
     }

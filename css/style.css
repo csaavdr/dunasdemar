@@ -34,9 +34,9 @@ ul li a {
   font-style: italic; }
 
 footer {
-  background-color: #000000; }
+  background-color: #012a58; }
   footer p {
-    color: #c9a523;
+    color: rgba(255, 211, 50, 0.733);
     text-align: center;
     font-family: "Roboto", sans-serif; }
 
